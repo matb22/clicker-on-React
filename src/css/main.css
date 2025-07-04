@@ -1,0 +1,13 @@
+body{ 
+    background-color: bisque;
+}
+
+.main-app { 
+    background-color: burlywood;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 140px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20% 40%;
+}
