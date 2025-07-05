@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './components/Header'
 
-import logo from './img/logo.jpg'
+import Generator from './components/Generator'
 
 
 
@@ -24,20 +24,24 @@ class App extends React.Component {
         
         
         
-        return<>
+        return(
+        <>
 
 
     
     <div className='main-app'>
-    <Header title ='Счётчик:'/>
+        <Header title ='Счётчик:'/>
 
-    <h1>{this.state.count}</h1>
-    <>
-    <button onClick={this.onClickMinus}>Минус -</button>
-    <button onClick={this.onClickPlus}>Плюс +</button>
-    </>
+        <h1>{this.state.count}</h1>
+            <>
+                <button onClick={this.onClickMinus}>Минус -</button>
+                <button onClick={this.onClickPlus}>Плюс +</button>
+            </>
     </div>
-        </>
+
+
+    <Generator/>
+        </>)
 
 }
 
